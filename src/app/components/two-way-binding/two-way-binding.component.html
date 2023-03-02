@@ -1,0 +1,23 @@
+<div class="class">
+    <p>-------------two-way-binding.component---------------</p>
+    <h2>Two way data Bining</h2>
+    <form>
+        <input 
+            type="text" 
+            [(ngModel)]="name" 
+            name="name"
+            placeholder="Digite seu Nome">
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form>
+        <input type="text"
+        [(ngModel)]="lastName"
+        name="lastname"
+        placeholder="Digite o sobrenome">
+    </form>
+
+
+    <p>O nome é : {{ name }} {{lastName}}</p>
+</div>
