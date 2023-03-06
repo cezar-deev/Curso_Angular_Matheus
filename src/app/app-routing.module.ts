@@ -1,7 +1,7 @@
 
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
-import { pipe } from "rxjs";
+
 
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
